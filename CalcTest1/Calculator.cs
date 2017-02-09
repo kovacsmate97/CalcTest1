@@ -12,5 +12,10 @@ namespace CalcTest1
         {
             return egyikszam + maszikszam;
         }
+
+        public static double Kivon(double egyikszam, double maszikszam)
+        {
+            return egyikszam - maszikszam;
+        }
     }
 }
